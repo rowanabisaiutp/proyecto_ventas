@@ -20,7 +20,7 @@
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <!-- <link href="css/font-awesome.min.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...tu_código_de_integridad..." crossorigin="anonymous" />
 
   <!-- Custom styles for this template -->
   <link href="./style.css" rel="stylesheet" />
@@ -38,20 +38,9 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-
-            </span>
-            <span>
-            <img src="../../assets/logo.png" width="120" height="120">
-          </span>
-          <span>
-            ¡Conocenos más!
+            <img src="../../assets/logo.png" width="180" height="180">
           </span>
           </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item ">
@@ -68,16 +57,18 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="" class="user_link">
-                <i class="fa fa-user" aria-hidden="true"></i>
+              <a href="#" class="order_online">
+              <i class="fas fa-plus-square" aria-hidden="true"></i>
               </a>
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="" class="order_online">
-                Suscribirse
+            </div>
+            <div class="user_option">
+              <a href="#" class="order_online">
+              <i class="fas fa-calendar" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="user_option">
+              <a href="#" class="order_online">
+              <i class="fas fa-credit-card" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -106,7 +97,7 @@
               </h2>
             </div>
             <p>
-              Fast Food es una tienda de comida rápida enfocada a la venta de hamburguesas, jotdogs, pizzas y 
+              Fast Food es una empresa de comida rápida enfocada a la venta de hamburguesas, jotdogs, pizzas y 
               una variedad de bebidas con el fin de brindarle un mejor sabor al paladar de nuestros clientes.
               Fast Food a su vez se diferencia por brindar un buen servicio y una excelente atención al cliente, 
               debido a esto se preocupa por mantener constantemente capacitados a sus empleados. Los valores que nos
@@ -123,35 +114,61 @@
 
   <!-- end about section -->
 
-    <!-- footer section -->
-    <footer class="footer_section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 footer-col">
-          </div>
-          <div class="col-md-4 footer-col">
-            <h4>
-              Horario
-            </h4>
-            <p>
-              Lunes a viernes 
-            </p>
-            <p>
-              10.00 Am -10.00 Pm
-            </p>
+  <!-- Cards -->
+  <app-personal></app-personal>
+  <!-- end Cards -->
+<br>
+
+      <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h3>
+              Reconocidos en el mercado global
+            </h3>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Dirección
+                </span>
+                <p>Calle 7 S/N Maxcanu, Yuc, Mex. 24900</p>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="footer-info">
+        <div class="col-md-4 footer-col">
+          <h3>
+            Horario
+          </h3>
           <p>
-            &copy; <span id="displayYear"></span> Todos los derechos reservados por
-            <a href="https://html.design/">Fast Food</a><br><br>
-            &copy; <span id="displayYear"></span> Empresa Socialmente
-            <a href="https://themewagon.com/" target="_blank">Responsable</a>
+            Lunes a viernes 
+          </p>
+          <p>
+            10.00 Am -10.00 Pm
           </p>
         </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h3>
+              Contamos con personal altamente calificado para brindarle un excelente servicio
+            </h3>
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- footer section -->
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> Todos los derechos reservados por
+          <a href="https://html.design/">Fast Food</a><br><br>
+          &copy; <span id="displayYear"></span> Empresa Socialmente
+          <a href="https://themewagon.com/" target="_blank">Responsable</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
