@@ -21,11 +21,15 @@
         </li>
         <li class="nav-item">
           
-          <a class="nav-link disabled" aria-disabled="true">
+          <a class="nav-link" aria-disabled="true" (click)="goToPage()">
             <img class="icon" src="https://cdn-icons-png.flaticon.com/512/8294/8294912.png" alt="">
             productos</a>
         </li>
       </ul>
+      <ul class="header-links pull-right">
+        <li><a href="#"><i class="fa fa-dollar "></i> USD</a></li>
+        <li><a href="#"><i class="fa fa-user-o mx-4"></i> My Account</a></li>
+    </ul>
     </div>
   </div>
 </div>
@@ -37,17 +41,16 @@
    <div class="container-fluid">
 
         <div class="input-group mb-3">
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Separated link</a></li>
-          </ul>
           <input type="text" class="form-control" aria-label="Text input with dropdown button">
 
-
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">33
+              </span>
+              <img class="icon-2 mx-3" src="https://cdn-icons-png.flaticon.com/512/10307/10307888.png" alt="">
+             
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">22
+              </span>
+              <img class="icon-2" src="https://cdn-icons-png.flaticon.com/512/6445/6445115.png" alt="">
+              
         </div>
 
         <button type="button" class="btn position-relative mx-4">
