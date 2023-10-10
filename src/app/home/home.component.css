@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(30, 30, 30);
+    background-color: black;
 }
 
 .navbar a{
@@ -9,19 +9,46 @@
 .icon{
     height: 20px;
 }
+.icon-2{
+    height: 30px;
+}
 
 .navbar h1 {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
 }
 .navbar h1 p{
     color: yellow;
-    font-size: 60px;
+    font-size: 40px;
 }
 .form-control{
     border-radius: 70px;
-    height: 50px;
+    height: 30px;
 }
 .container .nav-item{
     color: black;
 }
+
+.header-links li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px;
+    position: absolute;
+  }
+  .header-links li:last-child {
+    margin-right: 0px;
+  }
+  
+  .header-links li a {
+    color: #FFF;
+  }
+  
+  .header-links li a:hover {
+    color: #D10024;
+  }
+  
+  .header-links li i {
+    color: #D10024;
+    margin-right: 5px;
+  }
+  
