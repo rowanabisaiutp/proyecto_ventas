@@ -1,6 +1,4 @@
-.card{
-    border-radius: 0px;
-}
+
 .navbar{
     color: red;
 }
@@ -29,8 +27,8 @@
   p {
     font-size: 1em;
     line-height: 1.7;
-    font-weight: 300;
-    color: var(--text-gray);
+    font-weight: bold;
+    color: black;
   }
   
   .description {
